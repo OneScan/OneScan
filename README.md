@@ -1,1 +1,1 @@
-#### CENTRAL REPO / One Scan
+# One Scan (Central Repository)
