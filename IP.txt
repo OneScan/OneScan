@@ -1,5 +1,0 @@
-T: https://onescan.github.io/app/team.html
-I: https://onescan.github.io/app/index.html
-C: https://onescan.github.io/app/team.html
-DC: https://onescan.github.io/sc/domain-check.html
-priv: https://onescan.github.io/app/privacy.html
