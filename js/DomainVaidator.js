@@ -18,7 +18,7 @@ $(document).ready(function(){
 				url: url,
 				type: 'HEAD',
 				error: function(){
-					$("#console").text("Domain availabe !!!");//Location not found means availabe
+					$("#console").text("Domain availabe !!!\n"+url);//Location not found means availabe
 				},
 				success: function(){
 					$("#console").text("Sorry. This domain is already taken. Try again.");//Location found means taken
