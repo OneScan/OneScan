@@ -5,7 +5,7 @@
  *							    *
  * Properties:					            *
  * This program tries to find identical URL is given server *
- * by sendinh a request (AJAX) to the provided server.	    *
+ * by sending a request (AJAX) to the provided server.	    *
  * *********************************************************/
 $(document).ready(function(){
 	$("#validator").click(function(){
