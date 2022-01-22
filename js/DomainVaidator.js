@@ -21,7 +21,7 @@ $(document).ready(function(){
 				$("#console").text("Domain availabe !!!");//Location not found means availabe
 				},
 				success: function(){
-					$("console").text("Sorry. This domain is already taken. Try again.");//Location found means taken
+					$("#console").text("Sorry. This domain is already taken. Try again.");//Location found means taken
 				}
 			});
 		}
