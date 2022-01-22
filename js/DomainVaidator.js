@@ -11,7 +11,6 @@ $(document).ready(function(){
 	$("#validator").click(function(){
 		var url = new URL("https://onescan.github.io/sc/");//Server location
 		url += $("#extension").val(); //Extenstion from user input
-		var console_url = url;
 		url += "/index.html";
 		
 		if(url != ""){
@@ -20,7 +19,6 @@ $(document).ready(function(){
 				type: 'HEAD',
 				error: function(){
 				$("#console").text("Domain availabe !!!");//Location not found means availabe
-				$("#console").text(console_url);//Location not found means availabe
 				},
 				success: function(){
 					$("console").text("Sorry. This domain is already taken. Try again.");//Location found means taken
