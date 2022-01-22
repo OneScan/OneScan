@@ -1,9 +1,9 @@
 /************************************************************
  * DomainVaidator.js                                        *
  *                                                          *
- * Dev: Jayed Rafi											                    *
- *															                            *
- * Properties:												                      *
+ * Dev: Jayed Rafi					    *
+ *							    *
+ * Properties:					     	    *
  * This program tries to find identical URL is given server.*
  * *********************************************************/
 $(document).ready(function(){
