@@ -4,7 +4,7 @@
  * Dev: Jayed Rafi					    *
  *							    *
  * Properties:					            *
- * This program tries to find identical URL is given server *
+ * This program tries to find identical URL in given server *
  * by sending a request (AJAX) to the provided server.	    *
  * *********************************************************/
 $(document).ready(function(){
