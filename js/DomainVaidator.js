@@ -1,17 +1,17 @@
 /************************************************************
  * DomainVaidator.js                                        *
  *                                                          *
- * Dev: Jayed Rafi											*
- *															*
- * Properties:												*
+ * Dev: Jayed Rafi					    *
+ *							    *
+ * Properties:					            *
  * This program tries to find identical URL is given server *
- * by sendinh a request (AJAX) to the provided server.		*
+ * by sendinh a request (AJAX) to the provided server.	    *
  * *********************************************************/
 $(document).ready(function(){
 	$("#validator").click(function(){
 		var url = new URL("https://onescan.github.io/sc/");//Server location
 		url += $("#extension").val(); //Extenstion from user input
-		url += "/index.html";
+		url += "/index.html"; //Smart card availability
 		
 		if(url != ""){
 			$.ajax({
