@@ -9,7 +9,7 @@
  * *********************************************************/
 $(document).ready(function(){
 	$("#validator").click(function(){
-		var url = new URL("https://onescan.github.io/sc/");//Server location
+		var url = new URL("https://onescan.github.io/sc/");//Server location 
 		url += $("#extension").val(); //Extenstion from user input
 		url += "/index.html";
 		
